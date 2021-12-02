@@ -3,13 +3,13 @@ using System.Linq;
 
 namespace AdventOfCode2021.Days
 {
-    public class Day1 : Day
+    public class Day1 : IDay
     {
         string inputPath = "C:\\Users\\jpete\\Documents\\projects\\AdventOfCode2021\\AdventOfCode2021\\Days\\Day1Resources\\input.txt";
 
         public void Run()
         {
-            var input = ReadFileLines(inputPath).Select(i => Convert.ToInt32(i)).ToArray();
+            var input = Helpers.ReadFileLines(inputPath).Select(i => Convert.ToInt32(i)).ToArray();
             var depthIncreasedCount = 0;
             for (int i = 1; i < input.Length; i += 1)
             {
@@ -27,7 +27,7 @@ namespace AdventOfCode2021.Days
 
         public void RunPart2()
         {
-            var input = ReadFileLines(inputPath).Select(i => Convert.ToInt32(i)).ToArray();
+            var input = Helpers.ReadFileLines(inputPath).Select(i => Convert.ToInt32(i)).ToArray();
             var sumIncreasedCount = 0;
             var prevSum = 0;
             for (int i = 2; i < input.Length; i += 1)
