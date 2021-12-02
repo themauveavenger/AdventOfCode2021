@@ -1,20 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AdventOfCode2021.Days
 {
-    public class Day1
+    public class Day1 : Day
     {
         string inputPath = "C:\\Users\\jpete\\Documents\\projects\\AdventOfCode2021\\AdventOfCode2021\\Days\\Day1Resources\\input.txt";
-
-        public string[] ReadFileLines(string path)
-        {
-            return System.IO.File.ReadAllLines(path);
-        }
 
         public void Run()
         {
