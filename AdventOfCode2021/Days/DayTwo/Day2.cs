@@ -8,7 +8,7 @@ namespace AdventOfCode2021.Days.DayTwo
 {
     public partial class Day2 : IDay
     {
-        string inputPath = @"C:\Users\jpete\Documents\projects\AdventOfCode2021\AdventOfCode2021\Days\Day2Resources\input.txt";
+        string inputPath = @".\Days\Day2Resources\input.txt";
 
         public (string, int)[] GetInstructions()
         {

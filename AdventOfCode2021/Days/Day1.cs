@@ -5,7 +5,7 @@ namespace AdventOfCode2021.Days
 {
     public class Day1 : IDay
     {
-        string inputPath = "C:\\Users\\jpete\\Documents\\projects\\AdventOfCode2021\\AdventOfCode2021\\Days\\Day1Resources\\input.txt";
+        string inputPath = @".\Days\Day1Resources\input.txt";
 
         public void Run()
         {
