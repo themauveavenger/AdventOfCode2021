@@ -12,17 +12,17 @@
             Aim = 0;
         }
 
-        public new void Up(int amount)
+        public void Up(int amount)
         {
             Aim -= amount;
         }
 
-        public new void Down(int amount)
+        public void Down(int amount)
         {
             Aim += amount;
         }
 
-        public new void Forward(int amount)
+        public void Forward(int amount)
         {
             HorizontalPos += amount;
             Depth += (Aim * amount);
