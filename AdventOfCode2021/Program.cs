@@ -4,6 +4,8 @@ using AdventOfCode2021.Days;
 using AdventOfCode2021.Days.DayTwo;
 using AdventOfCode2021.Days.DayThree;
 using AdventOfCode2021.Days.DayFour;
+using AdventOfCode2021.Days.DayFive;
+using AdventOfCode2021.Days.DayTwentyOne;
 
 namespace AdventOfCode2021
 {
@@ -11,7 +13,7 @@ namespace AdventOfCode2021
     {
         static void Main(string[] args)
         {
-            List<IDay> days = new List<IDay>() { new Day4() };
+            List<IDay> days = new List<IDay>() { new Day21() };
             foreach (IDay day in days)
             {
                 var dayName = day.GetType().Name;
